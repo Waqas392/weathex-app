@@ -1,3 +1,4 @@
+import os
 from datetime import datetime, timedelta
 from jose import JWTError, jwt
 from passlib.context import CryptContext
@@ -7,8 +8,8 @@ from sqlalchemy.orm import Session
 from database import get_db
 from models import User
 
-SECRET_KEY = "weathex-dev-secret-change-in-production-8f3a9c2e1b7d4f6a"
-ALGORITHM = "HS256"
+SECRET_KEY = os.getenv("SECRET_KEY", "weathex-dev-secret-change-in-production-8f3a9c2e1b7d4f6a")
+ALGORITHM = os.getenv("ALGORITHM", "HS256")
 ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24 * 7
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
