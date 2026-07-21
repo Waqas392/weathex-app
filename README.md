@@ -1,19 +1,20 @@
 # Weathex
 
-A full-stack weather dashboard built for the PM Accelerator AI Engineer Intern technical assessment. Weathex lets users look up current conditions and a 7-day forecast for any location (city, zip/postal code, landmark, or GPS coordinates), save weather lookups for a date range, and export saved records to JSON, CSV, XML, Markdown, or PDF.
+A weather dashboard I built for the PM Accelerator AI Engineer Intern technical assessment. You can look up a location — a city, a zip code, a landmark, whatever — and get current conditions plus a 7-day forecast. Signed-in users can save a location and date range, come back and edit or delete it later, and export any saved record to JSON, CSV, XML, Markdown, or PDF.
 
 Built by **Waqas Ahmad**.
 
 ## What this covers
 
-- **Tech Assessment #1 (Frontend):** location search (city/zip/landmark/coordinates), current-location lookup via geolocation, current conditions with icons, hourly and 7-day forecast, air quality index, responsive layout (Tailwind breakpoints), graceful error handling (location not found, API failures).
-- **Tech Assessment #2 (Backend):** full CRUD on saved weather records (create/read/update/delete), date-range validation, location validation with fuzzy fallback, export to JSON/CSV/XML/Markdown/PDF, plus extra API integrations (OpenStreetMap embed for location maps, Open-Meteo Air Quality API) and JWT-based auth so records are scoped per user.
+For the frontend side of the assessment, location search handles city names, zip codes, landmarks, and coordinates. There's a button to grab weather for wherever you currently are, current conditions with icons, an hourly view, a 7-day forecast, and an air quality panel. Search for something that doesn't exist and you get a real error message instead of the app just breaking. The layout holds up on a phone screen too, since everything's built with Tailwind's responsive breakpoints.
+
+On the backend side, saved weather records support full CRUD — create, read, update, delete. Date ranges get validated (you can't save an end date before a start date), and locations get checked against the geocoder before anything's written to the database, with a fallback lookup for things the primary geocoder can't resolve, like zip codes or landmarks. Export works for JSON, CSV, XML, Markdown, and PDF. Beyond what's asked for, I added a map view using OpenStreetMap and pulled in the Open-Meteo Air Quality API, plus a basic JWT auth system so people's saved records stay private to their account.
 
 ## Tech stack
 
 - **Frontend:** React (Vite), Tailwind CSS, React Router, Axios
 - **Backend:** FastAPI, SQLAlchemy, SQLite, Pydantic
-- **APIs:** Open-Meteo (weather, geocoding, air quality), Nominatim/OpenStreetMap (fallback geocoding for zip codes/addresses/landmarks, and the embedded map)
+- **APIs:** Open-Meteo for weather, geocoding, and air quality; Nominatim/OpenStreetMap as a geocoding fallback and for the embedded map
 
 ## Project structure
 
@@ -56,7 +57,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-The API runs on `http://localhost:8000`. Interactive docs are available at `http://localhost:8000/docs`. On first run, SQLAlchemy creates `weathex.db` (SQLite) automatically — no manual DB setup needed.
+The API comes up on `http://localhost:8000`, and you can poke around the endpoints at `http://localhost:8000/docs`. SQLAlchemy creates `weathex.db` on first run, so there's no database setup step.
 
 ### Frontend
 
@@ -66,21 +67,12 @@ npm install
 npm run dev
 ```
 
-The app runs on `http://localhost:5173` and proxies `/api` requests to the backend at `http://localhost:8000` (see `vite.config.js`).
+Runs on `http://localhost:5173` and proxies `/api` calls to the backend (check `vite.config.js` if you need to change the port). No API keys needed anywhere — both Open-Meteo and Nominatim are free and keyless.
 
-No API keys are required — Open-Meteo and Nominatim are both free, keyless APIs.
+## A few implementation notes
 
-## Key features
+City-name searches go through Open-Meteo's geocoder first. If that comes back empty — say someone typed a zip code or a landmark name — it falls back to Nominatim automatically, so the search bar can handle more than just "type a city name."
 
-- **Location search:** accepts city names, zip/postal codes, landmarks, and GPS coordinates. City-name lookups go through Open-Meteo's geocoder first; anything it can't resolve (zip codes, addresses, landmarks) falls back to Nominatim (OpenStreetMap).
-- **Current location:** uses the browser's Geolocation API to fetch weather for wherever the user is.
-- **7-day forecast + hourly breakdown**, plus a live Air Quality Index panel.
-- **Saved records (CRUD):** signed-in users can save a location + date range, view saved records, edit them (which re-fetches weather data if the location or dates change), and delete them.
-- **Validation:** end date can't precede start date (enforced both client-side and via a Pydantic validator server-side); unresolvable locations return a clear 404 instead of silently failing.
-- **Export:** any saved record can be downloaded as JSON, CSV, XML, Markdown, or PDF.
-- **Auth:** email/password registration and login with JWT, so saved records are private per account.
+Editing a saved record re-fetches the weather data if you changed the location or the dates, rather than just updating the text fields and leaving stale numbers behind.
 
-## Known limitations
-
-- Weather conditions are as reported by Open-Meteo's forecast model; for very localized/spotty precipitation the model can occasionally disagree with what's happening at an exact point (this is a model characteristic, not an app bug).
-- `SECRET_KEY` in `auth_utils.py` is hardcoded for local/dev convenience — in a production deployment this would move to an environment variable.
+`SECRET_KEY` in `auth_utils.py` is hardcoded for now, which is fine for running this locally but would move to an environment variable for anything beyond a demo.
