@@ -1,1 +1,86 @@
-‣敗瑡敨੸䄊映汵⵬瑳捡⁫敷瑡敨⁲慤桳潢牡⁤畢汩⁴潦⁲桴⁥䵐䄠捣汥牥瑡牯䄠⁉湅楧敮牥䤠瑮牥⁮整档楮慣⁬獡敳獳敭瑮‮敗瑡敨⁸敬獴甠敳獲氠潯⁫灵挠牵敲瑮挠湯楤楴湯⁳湡⁤⁡ⴷ慤⁹潦敲慣瑳映牯愠祮氠捯瑡潩⁮挨瑩ⱹ稠灩瀯獯慴⁬潣敤‬慬摮慭歲‬牯䜠卐挠潯摲湩瑡獥Ⱙ猠癡⁥敷瑡敨⁲潬歯灵⁳潦⁲⁡慤整爠湡敧‬湡⁤硥潰瑲猠癡摥爠捥牯獤琠⁯半乏‬千ⱖ堠䱍‬慍歲潤湷‬牯倠䙄ਮ䈊極瑬戠⁹⨪慗慱⁳桁慭⩤⸪ਊ⌣圠慨⁴桴獩挠癯牥ੳⴊ⨠吪捥⁨獁敳獳敭瑮⌠‱䘨潲瑮湥⥤⨺‪潬慣楴湯猠慥捲⁨挨瑩⽹楺⽰慬摮慭歲振潯摲湩瑡獥Ⱙ挠牵敲瑮氭捯瑡潩⁮潬歯灵瘠慩朠潥潬慣楴湯‬畣牲湥⁴潣摮瑩潩獮眠瑩⁨捩湯ⱳ栠畯汲⁹湡⁤ⴷ慤⁹潦敲慣瑳‬楡⁲畱污瑩⁹湩敤ⱸ爠獥潰獮癩⁥慬潹瑵⠠慔汩楷摮戠敲歡潰湩獴Ⱙ朠慲散畦⁬牥潲⁲慨摮楬杮⠠潬慣楴湯渠瑯映畯摮‬偁⁉慦汩牵獥⸩ⴊ⨠吪捥⁨獁敳獳敭瑮⌠′䈨捡敫摮㨩⨪映汵⁬剃䑕漠⁮慳敶⁤敷瑡敨⁲敲潣摲⁳挨敲瑡⽥敲摡甯摰瑡⽥敤敬整Ⱙ搠瑡ⵥ慲杮⁥慶楬慤楴湯‬潬慣楴湯瘠污摩瑡潩⁮楷桴映穵祺映污扬捡Ⱬ攠灸牯⁴潴䨠体⽎千⽖䵘⽌慍歲潤湷倯䙄‬汰獵攠瑸慲䄠䥐椠瑮来慲楴湯⁳伨数卮牴敥䵴灡攠扭摥映牯氠捯瑡潩⁮慭獰‬灏湥䴭瑥潥䄠物儠慵楬祴䄠䥐 湡⁤坊ⵔ慢敳⁤畡桴猠⁯敲潣摲⁳牡⁥捳灯摥瀠牥甠敳⹲ਊ⌣吠捥⁨瑳捡੫ⴊ⨠䘪潲瑮湥㩤⨪删慥瑣⠠楖整Ⱙ吠楡睬湩⁤千ⱓ删慥瑣删畯整Ⱳ䄠楸獯ⴊ⨠䈪捡敫摮⨺‪慆瑳偁ⱉ匠䱑汁档浥ⱹ匠䱑瑩ⱥ倠摹湡楴੣‭⨪偁獉⨺‪灏湥䴭瑥潥⠠敷瑡敨Ⱳ朠潥潣楤杮‬楡⁲畱污瑩⥹‬潎業慮楴⽭灏湥瑓敲瑥慍⁰昨污扬捡⁫敧捯摯湩⁧潦⁲楺⁰潣敤⽳摡牤獥敳⽳慬摮慭歲ⱳ愠摮琠敨攠扭摥敤⁤慭⥰ਊ⌣倠潲敪瑣猠牴捵畴敲ਊ恠੠敷瑡敨⵸灡⽰鲔铢肔戠捡敫摮ਯ铢₂†铢肔铢₀慭湩瀮⁹†††††††⌠䘠獡䅴䥐愠灰‬潲瑵牥爠来獩牴瑡潩Ɱ䌠剏੓铢₂†铢肔铢₀潭敤獬瀮⁹††††††⌠匠䱑汁档浥⁹潭敤獬⠠獕牥‬敗瑡敨割捥牯⥤芔†鲔铢肔猠档浥獡瀮⁹††††††‣祐慤瑮捩爠煥敵瑳爯獥潰獮⁥捳敨慭ੳ铢₂†铢肔铢₀慤慴慢敳瀮⁹†††††⌠匠䱑瑩⁥湥楧敮猯獥楳湯猠瑥灵芔†鲔铢肔愠瑵彨瑵汩⹳祰†††††‣慐獳潷摲栠獡楨杮‬坊⁔獩畳湩⽧敶楲楦慣楴湯芔†鲔铢肔爠煥極敲敭瑮⹳硴ੴ铢₂†铢肔铢₀潲瑵牥⽳芔†芔†鲔铢肔眠慥桴牥瀮⁹††††‣愯楰眯慥桴牥ⴠ挠牵敲瑮‬潦敲慣瑳‬楡⁲畱污瑩ⱹ猠慥捲੨铢₂†铢₂†铢肔铢₀楨瑳牯⹹祰††††⌠⼠灡⽩楨瑳牯⁹‭剃䑕映牯猠癡摥爠捥牯獤芔†芔†鲔铢肔攠灸牯⹴祰†††††‣愯楰支灸牯⁴‭半乏䌯噓堯䱍䴯⽄䑐⁆硥潰瑲芔†芔†钔铢肔愠瑵⹨祰††††††‣愯楰愯瑵⁨‭敲楧瑳牥‬潬楧Ɱ洠੥铢₂†铢肔铢₀敳癲捩獥ਯ铢₂†††铢肔铢₀敷瑡敨彲敳癲捩⹥祰††⌠传数⵮敍整⁯‫潎業慮楴⁭湩整牧瑡潩Ɱ眠慥桴牥挠摯⁥慭灰湩੧铢₂†††铢肔铢₀楨瑳牯役敳癲捩⹥祰††⌠䌠啒⁄畢楳敮獳氠杯捩芔†††钔铢肔攠灸牯彴敳癲捩⹥祰†††‣潦浲瑡挠湯敶獲潩⁮潦⁲慥档攠灸牯⁴祴数钔铢肔映潲瑮湥⽤ †鲔铢肔猠捲ਯ††铢₂†铢肔铢₀潣灭湯湥獴 †††⌠䌠牵敲瑮敗瑡敨Ⱳ䐠楡祬潆敲慣瑳‬楁兲慵楬祴‬潌慣楴湯慍Ɒ攠捴ਮ††铢₂†铢肔铢₀潣瑮硥⽴†††††⌠圠慥桴牥潃瑮硥ⱴ䄠瑵䍨湯整瑸 †芔†鲔铢肔瀠条獥 ††††††⌠吠摯祡慐敧‬楈瑳牯偹条ⱥ䄠摤楈瑳牯偹条ⱥ䔠楤䡴獩潴祲慐敧‬硅潰瑲慐敧‬楁兲慵楬祴慐敧 †芔†钔铢肔猠牥楶散⽳灡⹩獪††‣硁潩⁳汣敩瑮 †钔铢肔瀠捡慫敧樮潳੮恠੠⌊‣畒湮湩⁧瑩氠捯污祬ਊ⌣‣慂正湥੤怊恠慢桳挊⁤慢正湥੤祰桴湯ⴠ⁭敶癮瘠湥੶潳牵散瘠湥⽶楢⽮捡楴慶整††††‣楗摮睯㩳瘠湥屶捓楲瑰屳捡楴慶整瀊灩椠獮慴汬ⴠ⁲敲畱物浥湥獴琮瑸甊楶潣湲洠楡㩮灡⁰ⴭ敲潬摡怊恠ਊ桔⁥偁⁉畲獮漠⁮桠瑴㩰⼯潬慣桬獯㩴〸〰⹠䤠瑮牥捡楴敶搠捯⁳牡⁥癡楡慬汢⁥瑡怠瑨灴⼺氯捯污潨瑳㠺〰⼰潤獣⹠传⁮楦獲⁴畲Ɱ匠䱑汁档浥⁹牣慥整⁳睠慥桴硥搮恢⠠兓楌整 畡潴慭楴慣汬⁹胢ₔ潮洠湡慵⁬䉄猠瑥灵渠敥敤⹤ਊ⌣‣牆湯整摮ਊ恠扠獡੨摣映潲瑮湥੤灮⁭湩瑳污੬灮⁭畲⁮敤੶恠੠吊敨愠灰爠湵⁳湯怠瑨灴⼺氯捯污潨瑳㔺㜱怳愠摮瀠潲楸獥怠愯楰⁠敲畱獥獴琠⁯桴⁥慢正湥⁤瑡怠瑨灴⼺氯捯污潨瑳㠺〰怰⠠敳⁥癠瑩⹥潣普杩樮恳⸩ਊ潎䄠䥐欠祥⁳牡⁥敲畱物摥钀传数⵮敍整⁯湡⁤潎業慮楴⁭牡⁥潢桴映敲ⱥ欠祥敬獳䄠䥐⹳ਊ⌣䬠祥映慥畴敲ੳⴊ⨠䰪捯瑡潩⁮敳牡档⨺‪捡散瑰⁳楣祴渠浡獥‬楺⽰潰瑳污挠摯獥‬慬摮慭歲ⱳ愠摮䜠卐挠潯摲湩瑡獥‮楃祴渭浡⁥潬歯灵⁳潧琠牨畯桧传数⵮敍整❯⁳敧捯摯牥映物瑳※湡瑹楨杮椠⁴慣❮⁴敲潳癬⁥稨灩挠摯獥‬摡牤獥敳ⱳ氠湡浤牡獫 慦汬⁳慢正琠⁯潎業慮楴⁭伨数卮牴敥䵴灡⸩ⴊ⨠䌪牵敲瑮氠捯瑡潩㩮⨪甠敳⁳桴⁥牢睯敳❲⁳敇汯捯瑡潩⁮偁⁉潴映瑥档眠慥桴牥映牯眠敨敲敶⁲桴⁥獵牥椠⹳ⴊ⨠㜪搭祡映牯捥獡⁴‫潨牵祬戠敲歡潤湷⨪‬汰獵愠氠癩⁥楁⁲畑污瑩⁹湉敤⁸慰敮⹬ⴊ⨠匪癡摥爠捥牯獤⠠剃䑕㨩⨪猠杩敮ⵤ湩甠敳獲挠湡猠癡⁥⁡潬慣楴湯⬠搠瑡⁥慲杮ⱥ瘠敩⁷慳敶⁤敲潣摲ⱳ攠楤⁴桴浥⠠桷捩⁨敲昭瑥档獥眠慥桴牥搠瑡⁡晩琠敨氠捯瑡潩⁮牯搠瑡獥挠慨杮⥥‬湡⁤敤敬整琠敨⹭ⴊ⨠嘪污摩瑡潩㩮⨪攠摮搠瑡⁥慣❮⁴牰捥摥⁥瑳牡⁴慤整⠠湥潦捲摥戠瑯⁨汣敩瑮猭摩⁥湡⁤楶⁡⁡祐慤瑮捩瘠污摩瑡牯猠牥敶⵲楳敤㬩甠牮獥汯慶汢⁥潬慣楴湯⁳敲畴湲愠挠敬牡㐠㐰椠獮整摡漠⁦楳敬瑮祬映楡楬杮ਮ‭⨪硅潰瑲⨺‪湡⁹慳敶⁤敲潣摲挠湡戠⁥潤湷潬摡摥愠⁳半乏‬千ⱖ堠䱍‬慍歲潤湷‬牯倠䙄ਮ‭⨪畁桴⨺‪浥楡⽬慰獳潷摲爠来獩牴瑡潩⁮湡⁤潬楧⁮楷桴䨠呗‬潳猠癡摥爠捥牯獤愠敲瀠楲慶整瀠牥愠捣畯瑮ਮ⌊‣湋睯⁮楬業慴楴湯ੳⴊ圠慥桴牥挠湯楤楴湯⁳牡⁥獡爠灥牯整⁤祢传数⵮敍整❯⁳潦敲慣瑳洠摯汥※潦⁲敶祲氠捯污穩摥猯潰瑴⁹牰捥灩瑩瑡潩⁮桴⁥潭敤⁬慣⁮捯慣楳湯污祬搠獩条敲⁥楷桴眠慨❴⁳慨灰湥湩⁧瑡愠⁮硥捡⁴潰湩⁴琨楨⁳獩愠洠摯汥挠慨慲瑣牥獩楴Ᵽ渠瑯愠⁮灡⁰畢⥧ਮ‭占䍅䕒彔䕋恙椠⁮慠瑵彨瑵汩⹳祰⁠獩栠牡捤摯摥映牯氠捯污搯癥挠湯敶楮湥散钀椠⁮⁡牰摯捵楴湯搠灥潬浹湥⁴桴獩眠畯摬洠癯⁥潴愠⁮湥楶潲浮湥⁴慶楲扡敬ਮ
+# Weathex
+
+A full-stack weather dashboard built for the PM Accelerator AI Engineer Intern technical assessment. Weathex lets users look up current conditions and a 7-day forecast for any location (city, zip/postal code, landmark, or GPS coordinates), save weather lookups for a date range, and export saved records to JSON, CSV, XML, Markdown, or PDF.
+
+Built by **Waqas Ahmad**.
+
+## What this covers
+
+- **Tech Assessment #1 (Frontend):** location search (city/zip/landmark/coordinates), current-location lookup via geolocation, current conditions with icons, hourly and 7-day forecast, air quality index, responsive layout (Tailwind breakpoints), graceful error handling (location not found, API failures).
+- **Tech Assessment #2 (Backend):** full CRUD on saved weather records (create/read/update/delete), date-range validation, location validation with fuzzy fallback, export to JSON/CSV/XML/Markdown/PDF, plus extra API integrations (OpenStreetMap embed for location maps, Open-Meteo Air Quality API) and JWT-based auth so records are scoped per user.
+
+## Tech stack
+
+- **Frontend:** React (Vite), Tailwind CSS, React Router, Axios
+- **Backend:** FastAPI, SQLAlchemy, SQLite, Pydantic
+- **APIs:** Open-Meteo (weather, geocoding, air quality), Nominatim/OpenStreetMap (fallback geocoding for zip codes/addresses/landmarks, and the embedded map)
+
+## Project structure
+
+```
+weathex-app/
+├── backend/
+│   ├── main.py                # FastAPI app, router registration, CORS
+│   ├── models.py              # SQLAlchemy models (User, WeatherRecord)
+│   ├── schemas.py             # Pydantic request/response schemas
+│   ├── database.py            # SQLite engine/session setup
+│   ├── auth_utils.py          # Password hashing, JWT issuing/verification
+│   ├── requirements.txt
+│   ├── routers/
+│   │   ├── weather.py         # /api/weather - current, forecast, air quality, search
+│   │   ├── history.py         # /api/history - CRUD for saved records
+│   │   ├── export.py          # /api/export - JSON/CSV/XML/MD/PDF export
+│   │   └── auth.py            # /api/auth - register, login, me
+│   └── services/
+│       ├── weather_service.py     # Open-Meteo + Nominatim integration, weather code mapping
+│       ├── history_service.py     # CRUD business logic
+│       └── export_service.py      # format conversion for each export type
+└── frontend/
+    ├── src/
+    │   ├── components/        # CurrentWeather, DailyForecast, AirQuality, LocationMap, etc.
+    │   ├── context/           # WeatherContext, AuthContext
+    │   ├── pages/              # TodayPage, HistoryPage, AddHistoryPage, EditHistoryPage, ExportPage, AirQualityPage
+    │   └── services/api.js    # Axios client
+    └── package.json
+```
+
+## Running it locally
+
+### Backend
+
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate        # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+The API runs on `http://localhost:8000`. Interactive docs are available at `http://localhost:8000/docs`. On first run, SQLAlchemy creates `weathex.db` (SQLite) automatically — no manual DB setup needed.
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+The app runs on `http://localhost:5173` and proxies `/api` requests to the backend at `http://localhost:8000` (see `vite.config.js`).
+
+No API keys are required — Open-Meteo and Nominatim are both free, keyless APIs.
+
+## Key features
+
+- **Location search:** accepts city names, zip/postal codes, landmarks, and GPS coordinates. City-name lookups go through Open-Meteo's geocoder first; anything it can't resolve (zip codes, addresses, landmarks) falls back to Nominatim (OpenStreetMap).
+- **Current location:** uses the browser's Geolocation API to fetch weather for wherever the user is.
+- **7-day forecast + hourly breakdown**, plus a live Air Quality Index panel.
+- **Saved records (CRUD):** signed-in users can save a location + date range, view saved records, edit them (which re-fetches weather data if the location or dates change), and delete them.
+- **Validation:** end date can't precede start date (enforced both client-side and via a Pydantic validator server-side); unresolvable locations return a clear 404 instead of silently failing.
+- **Export:** any saved record can be downloaded as JSON, CSV, XML, Markdown, or PDF.
+- **Auth:** email/password registration and login with JWT, so saved records are private per account.
+
+## Known limitations
+
+- Weather conditions are as reported by Open-Meteo's forecast model; for very localized/spotty precipitation the model can occasionally disagree with what's happening at an exact point (this is a model characteristic, not an app bug).
+- `SECRET_KEY` in `auth_utils.py` is hardcoded for local/dev convenience — in a production deployment this would move to an environment variable.
