@@ -92,7 +92,7 @@ const CurrentWeather = () => {
 
               <div className="flex flex-col items-center shrink-0">
                 <div className="flex items-center justify-center h-16 w-16 md:h-[88px] md:w-[88px]">
-                  <img src={`/assets/weather-icons/${bgCondition}.svg`} alt="Weather icon" className="w-16 h-16 md:w-[88px] md:h-[88px]" />
+                  <img src={`${import.meta.env.BASE_URL}assets/weather-icons/${bgCondition}.svg`} alt="Weather icon" className="w-16 h-16 md:w-[88px] md:h-[88px]" />
                 </div>
                 <div className="text-white text-[11px] md:text-base font-bold mt-2 tracking-wide text-center w-16 md:w-[88px] leading-tight break-words">{currentWeather.description}</div>
               </div>

@@ -308,7 +308,7 @@ const TodayOutlook = () => {
                   >
                     <div className="outlook-time">{d.t}</div>
                     <div className="outlook-iconbox">
-                      <img src={`/assets/weather-icons/${d.icon}.svg`} alt={d.icon} />
+                      <img src={`${import.meta.env.BASE_URL}assets/weather-icons/${d.icon}.svg`} alt={d.icon} />
                     </div>
                     <div className="outlook-precip">{d.precip ? d.precip + '%' : ''}</div>
                   </div>
