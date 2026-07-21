@@ -17,7 +17,7 @@ const DailyForecast = () => {
                 {i === 0 ? 'Today' : new Date(day.time).toLocaleDateString('en-US', { weekday: 'short', day: 'numeric' })}
               </span>
               <div className="flex items-center gap-1 shrink-0 w-14 md:w-[72px]">
-                <img src={`/assets/weather-icons/${day.condition}.svg`} alt="" className="w-6 h-6 md:w-8 md:h-8 shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/weather-icons/${day.condition}.svg`} alt="" className="w-6 h-6 md:w-8 md:h-8 shrink-0" />
                 <span className="text-sky-700 block text-xs md:text-sm font-medium">{day.rain_chance}%</span>
               </div>
               <span className="text-neutral-800 truncate font-medium tracking-[-0.32px] leading-[20.8px] flex-1 min-w-0 hidden md:hidden">{day.description}</span>
