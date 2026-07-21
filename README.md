@@ -1,78 +1,205 @@
 # Weathex
 
-A weather dashboard I built for the PM Accelerator AI Engineer Intern technical assessment. You can look up a location — a city, a zip code, a landmark, whatever — and get current conditions plus a 7-day forecast. Signed-in users can save a location and date range, come back and edit or delete it later, and export any saved record to JSON, CSV, XML, Markdown, or PDF.
+Weathex is a full-stack weather dashboard built as part of the PM Accelerator AI Engineer Intern technical assessment. The goal was to create a weather application that goes beyond simply displaying today's forecast by combining real-time weather data, air quality information, location search, record management, and export functionality in a clean and user-friendly experience.
+
+The application allows users to search for weather information using city names, postal codes, landmarks, or GPS coordinates. Users can also save weather lookups for specific date ranges, manage those records, and export them in multiple formats.
 
 Built by **Waqas Ahmad**.
 
-## What this covers
+## Project Highlights
 
-For the frontend side of the assessment, location search handles city names, zip codes, landmarks, and coordinates. There's a button to grab weather for wherever you currently are, current conditions with icons, an hourly view, a 7-day forecast, and an air quality panel. Search for something that doesn't exist and you get a real error message instead of the app just breaking. The layout holds up on a phone screen too, since everything's built with Tailwind's responsive breakpoints.
+### Frontend Assessment Requirements
 
-On the backend side, saved weather records support full CRUD — create, read, update, delete. Date ranges get validated (you can't save an end date before a start date), and locations get checked against the geocoder before anything's written to the database, with a fallback lookup for things the primary geocoder can't resolve, like zip codes or landmarks. Export works for JSON, CSV, XML, Markdown, and PDF. Beyond what's asked for, I added a map view using OpenStreetMap and pulled in the Open-Meteo Air Quality API, plus a basic JWT auth system so people's saved records stay private to their account.
+* Search weather by city, zip/postal code, landmark, or coordinates
+* Get weather for the user's current location using browser geolocation
+* View current weather conditions with weather icons
+* Browse hourly and 7-day forecasts
+* Check local air quality information
+* Responsive design that works across desktop, tablet, and mobile devices
+* Clear and user-friendly error handling for invalid locations and API failures
 
-## Tech stack
+### Backend Assessment Requirements
 
-- **Frontend:** React (Vite), Tailwind CSS, React Router, Axios
-- **Backend:** FastAPI, SQLAlchemy, SQLite, Pydantic
-- **APIs:** Open-Meteo for weather, geocoding, and air quality; Nominatim/OpenStreetMap as a geocoding fallback and for the embedded map
+* Complete CRUD operations for saved weather records
+* Validation for locations and date ranges
+* Export weather records in multiple formats
+* Integration with additional external services
+* User authentication with JWT-based authorization
+* Private record management for each user account
 
-## Project structure
+## Tech Stack
 
-```
+### Frontend
+
+* React (Vite)
+* Tailwind CSS
+* React Router
+* Axios
+
+### Backend
+
+* FastAPI
+* SQLAlchemy
+* SQLite
+* Pydantic
+
+### External APIs
+
+* Open-Meteo (Weather Forecasts, Geocoding, Air Quality)
+* Nominatim / OpenStreetMap (Location Search and Maps)
+
+## Project Structure
+
+```text
 weathex-app/
 ├── backend/
-│   ├── main.py                # FastAPI app, router registration, CORS
-│   ├── models.py              # SQLAlchemy models (User, WeatherRecord)
-│   ├── schemas.py             # Pydantic request/response schemas
-│   ├── database.py            # SQLite engine/session setup
-│   ├── auth_utils.py          # Password hashing, JWT issuing/verification
+│   ├── main.py
+│   ├── models.py
+│   ├── schemas.py
+│   ├── database.py
+│   ├── auth_utils.py
 │   ├── requirements.txt
 │   ├── routers/
-│   │   ├── weather.py         # /api/weather - current, forecast, air quality, search
-│   │   ├── history.py         # /api/history - CRUD for saved records
-│   │   ├── export.py          # /api/export - JSON/CSV/XML/MD/PDF export
-│   │   └── auth.py            # /api/auth - register, login, me
+│   │   ├── weather.py
+│   │   ├── history.py
+│   │   ├── export.py
+│   │   └── auth.py
 │   └── services/
-│       ├── weather_service.py     # Open-Meteo + Nominatim integration, weather code mapping
-│       ├── history_service.py     # CRUD business logic
-│       └── export_service.py      # format conversion for each export type
+│       ├── weather_service.py
+│       ├── history_service.py
+│       └── export_service.py
 └── frontend/
     ├── src/
-    │   ├── components/        # CurrentWeather, DailyForecast, AirQuality, LocationMap, etc.
-    │   ├── context/           # WeatherContext, AuthContext
-    │   ├── pages/              # TodayPage, HistoryPage, AddHistoryPage, EditHistoryPage, ExportPage, AirQualityPage
-    │   └── services/api.js    # Axios client
+    │   ├── components/
+    │   ├── context/
+    │   ├── pages/
+    │   └── services/api.js
     └── package.json
 ```
 
-## Running it locally
+## Running the Project Locally
 
 ### Backend
 
 ```bash
 cd backend
+
 python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
+
+# Linux / macOS
+source venv/bin/activate
+
+# Windows
+venv\Scripts\activate
+
 pip install -r requirements.txt
+
 uvicorn main:app --reload
 ```
 
-The API comes up on `http://localhost:8000`, and you can poke around the endpoints at `http://localhost:8000/docs`. SQLAlchemy creates `weathex.db` on first run, so there's no database setup step.
+The backend will start on:
+
+```text
+http://localhost:8000
+```
+
+Interactive API documentation is available at:
+
+```text
+http://localhost:8000/docs
+```
+
+A local SQLite database is created automatically when the application runs for the first time.
 
 ### Frontend
 
 ```bash
 cd frontend
+
 npm install
+
 npm run dev
 ```
 
-Runs on `http://localhost:5173` and proxies `/api` calls to the backend (check `vite.config.js` if you need to change the port). No API keys needed anywhere — both Open-Meteo and Nominatim are free and keyless.
+The frontend runs on:
 
-## A few implementation notes
+```text
+http://localhost:5173
+```
 
-City-name searches go through Open-Meteo's geocoder first. If that comes back empty — say someone typed a zip code or a landmark name — it falls back to Nominatim automatically, so the search bar can handle more than just "type a city name."
+API requests are proxied to the FastAPI backend through the Vite configuration.
 
-Editing a saved record re-fetches the weather data if you changed the location or the dates, rather than just updating the text fields and leaving stale numbers behind.
+No API keys are required since both Open-Meteo and Nominatim provide free public access.
 
-`SECRET_KEY` in `auth_utils.py` is hardcoded for now, which is fine for running this locally but would move to an environment variable for anything beyond a demo.
+## Features
+
+### Smart Location Search
+
+Users can search using:
+
+* City names
+* Zip or postal codes
+* Famous landmarks
+* GPS coordinates
+
+The application first attempts to resolve locations through Open-Meteo's geocoding service. If a result isn't found, it automatically falls back to OpenStreetMap's Nominatim service, helping support a wider range of location inputs.
+
+### Current Location Weather
+
+Using the browser's Geolocation API, users can instantly view weather conditions for their current location without manually entering a search query.
+
+### Forecasts and Air Quality
+
+The dashboard provides:
+
+* Current weather conditions
+* Hourly forecast data
+* 7-day forecast outlook
+* Air Quality Index (AQI) information
+
+This gives users a more complete picture of local weather conditions beyond temperature alone.
+
+### Weather Record Management
+
+Authenticated users can save weather lookups along with a custom date range.
+
+Saved records can be:
+
+* Created
+* Viewed
+* Updated
+* Deleted
+
+When a record is updated, the application automatically refreshes weather information if the location or date range changes.
+
+### Data Validation
+
+Several validation layers help prevent invalid data from being stored:
+
+* End dates cannot occur before start dates
+* Invalid or unknown locations return clear error messages
+* Server-side validation is handled through Pydantic models
+
+### Export Options
+
+Weather records can be exported in multiple formats:
+
+* JSON
+* CSV
+* XML
+* Markdown
+* PDF
+
+This makes it easy to save, share, or use weather data outside the application.
+
+### Authentication
+
+Users can create accounts and log in using email and password authentication.
+
+JWT-based authorization ensures that each user's saved records remain private and accessible only to their account.
+
+## What I Learned
+
+Building Weathex provided hands-on experience with full-stack development, API integration, authentication, data validation, and file generation. It was also a great opportunity to work with FastAPI and React together while designing a system that combines multiple external services into a single user experience.
+
+The project demonstrates both frontend and backend development skills, including responsive UI design, REST API development, database management, authentication, and integration with third-party APIs.
