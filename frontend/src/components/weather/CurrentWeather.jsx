@@ -73,7 +73,11 @@ const CurrentWeather = () => {
 
       <a href="#" className="block rounded-2xl overflow-hidden widget-card">
         <section className="bg-gray-900 flex flex-col isolate relative overflow-hidden p-6 rounded-2xl min-h-[220px]">
-          <div className="bg-weather-card absolute inset-0 z-0 pointer-events-none" data-condition={bgCondition}></div>
+          <div
+            className="bg-weather-card absolute inset-0 z-0 pointer-events-none"
+            data-condition={bgCondition}
+            style={bgCondition ? { backgroundImage: `url(${import.meta.env.BASE_URL}assets/weather-bg/${bgCondition}.jpg)` } : undefined}
+          ></div>
           <div className="bg-black/20 absolute inset-0 z-0 pointer-events-none mix-blend-multiply"></div>
 
           <div className="relative z-10 flex-1 flex flex-col justify-end">
