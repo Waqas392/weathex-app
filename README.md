@@ -4,6 +4,12 @@ A full-stack weather dashboard built for the PM Accelerator AI Engineer Intern t
 
 Built by **Waqas Ahmad**.
 
+**Live demo:** https://waqas392.github.io/weathex-app/
+
+**Test account:**
+- Email: `assessment1@gmail.com`
+- Password: `Admin123`
+
 ## What this covers
 
 - **Tech Assessment #1 (Frontend):** location search (city/zip/landmark/coordinates), current-location lookup via geolocation, current conditions with icons, hourly and 7-day forecast, air quality index, responsive layout (Tailwind breakpoints), graceful error handling (location not found, API failures).
