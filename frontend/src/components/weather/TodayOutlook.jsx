@@ -260,12 +260,17 @@ const TodayOutlook = () => {
     return <div className="widget-card p-6">Loading outlook...</div>
   }
 
+  const today = forecast.daily && forecast.daily[0]
+  const todaySummary = today
+    ? `Today's high will be ${convertTemp(today.temp_max)}°, with a low of ${convertTemp(today.temp_min)}°.`
+    : ''
+
   const pillW = 92
 
   return (
     <section className="outlook-wrap">
       <div className="outlook-headline">Hourly forecast</div>
-      <div className="outlook-subline">Today's high temperature will be the same as yesterday's.</div>
+      <div className="outlook-subline">{todaySummary}</div>
 
       <div className="outlook-card" ref={cardRef}>
         <div

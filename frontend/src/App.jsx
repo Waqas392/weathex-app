@@ -29,6 +29,7 @@ function App() {
           sidebarOpen={sidebarOpen}
           onToggleSidebar={() => setSidebarOpen((prev) => !prev)}
           onCloseSidebar={() => setSidebarOpen(false)}
+          onSignIn={() => setShowSignInModal(true)}
         />
 
         <div className="flex flex-1 w-full">

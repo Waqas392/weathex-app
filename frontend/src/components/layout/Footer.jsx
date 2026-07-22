@@ -22,7 +22,7 @@ const Footer = () => {
             </ul>
 
             <p className="text-neutral-800 font-medium tracking-[-0.32px] leading-[20.8px] my-5">
-              <b>Weathex – Hyper-local weather intelligence.</b> Plan your day with confidence using real-time data, severe weather alerts, and accurate 10-day forecasts.
+              <b>Weathex – Hyper-local weather intelligence.</b> Plan your day with confidence using real-time data and an accurate 7-day forecast.
             </p>
           </div>
 
@@ -56,7 +56,6 @@ const Footer = () => {
         <div className="bg-neutral-800/10 h-px w-full"></div>
       </div>
 
-      <div className="block h-[60px] md:hidden"></div>
     </footer>
   )
 }
