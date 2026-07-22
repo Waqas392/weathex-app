@@ -40,31 +40,31 @@ html, body {
     background-repeat: no-repeat;
 }
 .bg-weather-card[data-condition="clear-day"] {
-    background-image: url('./assets/weather-bg/clear-day.jpg');
+    background-image: url('/weathex-app/assets/weather-bg/clear-day.jpg');
 }
 .bg-weather-card[data-condition="clear-night"] {
-    background-image: url('./assets/weather-bg/clear-night.jpg');
+    background-image: url('/weathex-app/assets/weather-bg/clear-night.jpg');
 }
 .bg-weather-card[data-condition="partly-cloudy-day"] {
-    background-image: url('./assets/weather-bg/partly-cloudy-day.jpg');
+    background-image: url('/weathex-app/assets/weather-bg/partly-cloudy-day.jpg');
 }
 .bg-weather-card[data-condition="partly-cloudy-night"] {
-    background-image: url('./assets/weather-bg/partly-cloudy-night.jpg');
+    background-image: url('/weathex-app/assets/weather-bg/partly-cloudy-night.jpg');
 }
 .bg-weather-card[data-condition="overcast"] {
-    background-image: url('./assets/weather-bg/overcast.jpg');
+    background-image: url('/weathex-app/assets/weather-bg/overcast.jpg');
 }
 .bg-weather-card[data-condition="fog"] {
-    background-image: url('./assets/weather-bg/fog.jpg');
+    background-image: url('/weathex-app/assets/weather-bg/fog.jpg');
 }
 .bg-weather-card[data-condition="rain"] {
-    background-image: url('./assets/weather-bg/rain.jpg');
+    background-image: url('/weathex-app/assets/weather-bg/rain.jpg');
 }
 .bg-weather-card[data-condition="thunderstorm"] {
-    background-image: url('./assets/weather-bg/thunderstorm.jpg');
+    background-image: url('/weathex-app/assets/weather-bg/thunderstorm.jpg');
 }
 .bg-weather-card[data-condition="snow"] {
-    background-image: url('./assets/weather-bg/snow.jpg');
+    background-image: url('/weathex-app/assets/weather-bg/snow.jpg');
 }
 .bg-weather-card:not([data-condition]) {
     background: linear-gradient(135deg, #64748b 0%, #334155 100%);
