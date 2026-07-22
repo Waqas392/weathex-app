@@ -73,24 +73,26 @@ const CurrentWeather = () => {
 
       <a href="#" className="block rounded-2xl overflow-hidden widget-card">
         <section className="bg-gray-900 flex flex-col isolate relative overflow-hidden p-6 rounded-2xl min-h-[220px]">
-          <div
-            className="bg-weather-card absolute inset-0 z-0 pointer-events-none"
-            data-condition={bgCondition}
-            style={bgCondition ? { backgroundImage: `url(${import.meta.env.BASE_URL}assets/weather-bg/${bgCondition}.jpg)` } : undefined}
-          ></div>
+          <div className="bg-weather-card absolute inset-0 z-0 pointer-events-none" data-condition={bgCondition}></div>
           <div className="bg-black/20 absolute inset-0 z-0 pointer-events-none mix-blend-multiply"></div>
 
-          <div className="relative z-10 flex-1 flex flex-col justify-end">
+          <div className="relative z-10 flex-1 flex flex-col justify-center md:justify-end md:pb-1">
             <div className="flex justify-between items-end gap-3">
               <div className="flex flex-col min-w-0">
                 <div className="text-white text-[56px] sm:text-[72px] md:text-[120px] font-extrabold tracking-[-2px] md:tracking-[-4.8px] leading-none">
                   {convertTemp(currentWeather.temperature)}°
                 </div>
-                <div className="text-white text-sm font-medium mt-2">
-                  Feels Like {convertTemp(currentWeather.feels_like)}° <span className="opacity-40 mx-1.5">|</span> High {convertTemp(currentWeather.temp_max)}° <span className="opacity-40 mx-1.5">|</span> Low {convertTemp(currentWeather.temp_min)}°
+                <div className="text-white text-sm font-medium mt-2 flex flex-wrap gap-x-1.5 gap-y-1">
+                  <span className="whitespace-nowrap">Feels Like {convertTemp(currentWeather.feels_like)}°</span>
+                  <span className="opacity-40">|</span>
+                  <span className="whitespace-nowrap">High {convertTemp(currentWeather.temp_max)}°</span>
+                  <span className="opacity-40">|</span>
+                  <span className="whitespace-nowrap">Low {convertTemp(currentWeather.temp_min)}°</span>
                 </div>
-                <div className="text-white text-sm font-medium mt-1">
-                  Chance of Rain {currentWeather.rain_chance}% <span className="opacity-40 mx-1.5">|</span> {currentWeather.precipitation || 0} in
+                <div className="text-white text-sm font-medium mt-1 flex flex-wrap gap-x-1.5 gap-y-1">
+                  <span className="whitespace-nowrap">Chance of Rain {currentWeather.rain_chance}%</span>
+                  <span className="opacity-40">|</span>
+                  <span className="whitespace-nowrap">{currentWeather.precipitation || 0} in</span>
                 </div>
               </div>
 

@@ -1,12 +1,15 @@
 import React, { useState, useRef } from 'react'
 import { useWeather } from '../../context/WeatherContext'
 import { searchLocations } from '../../services/api'
+import { useAuth } from '../../context/AuthContext'
 
-const Header = ({ sidebarOpen, onToggleSidebar, onCloseSidebar }) => {
-  const { setSearchQuery, unit, setUnit } = useWeather()
+const Header = ({ sidebarOpen, onToggleSidebar, onCloseSidebar, onSignIn }) => {
+  const { user } = useAuth()
+  const { setSearchQuery, unit, setUnit, useCurrentLocation } = useWeather()
   const [inputValue, setInputValue] = useState('')
   const [suggestions, setSuggestions] = useState([])
   const [showSuggestions, setShowSuggestions] = useState(false)
+  const [locating, setLocating] = useState(false)
   const debounceTimer = useRef(null)
 
   const handleChange = (e) => {
@@ -48,6 +51,14 @@ const Header = ({ sidebarOpen, onToggleSidebar, onCloseSidebar }) => {
       setSearchQuery(inputValue)
       setShowSuggestions(false)
     }
+  }
+
+  const handleLocateMe = () => {
+    setInputValue('')
+    setShowSuggestions(false)
+    setLocating(true)
+    useCurrentLocation()
+    setTimeout(() => setLocating(false), 1500)
   }
 
   return (
@@ -94,6 +105,25 @@ const Header = ({ sidebarOpen, onToggleSidebar, onCloseSidebar }) => {
                   onBlur={() => setTimeout(() => setShowSuggestions(false), 200)}
                   onFocus={() => suggestions.length > 0 && setShowSuggestions(true)}
                 />
+                <button
+                  type="button"
+                  onClick={handleLocateMe}
+                  disabled={locating}
+                  aria-label="Use current location"
+                  className="flex items-center justify-center h-8 w-8 shrink-0 rounded-full text-neutral-500 hover:text-blue-700 hover:bg-blue-50 transition disabled:opacity-50"
+                >
+                  {locating ? (
+                    <svg className="w-4 h-4 animate-spin" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z" />
+                    </svg>
+                  ) : (
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                  )}
+                </button>
               </form>
 
               {showSuggestions && suggestions.length > 0 && (
@@ -123,6 +153,15 @@ const Header = ({ sidebarOpen, onToggleSidebar, onCloseSidebar }) => {
             >
               {unit === 'celsius' ? '°C' : '°F'}
             </button>
+
+            {!user && (
+              <button
+                onClick={onSignIn}
+                className="md:hidden bg-neutral-900 text-white text-xs font-bold px-2.5 py-1.5 rounded-md transition hover:bg-neutral-800"
+              >
+                Sign in
+              </button>
+            )}
           </div>
         </div>
       </header>
